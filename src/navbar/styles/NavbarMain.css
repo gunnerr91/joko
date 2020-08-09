@@ -1,0 +1,44 @@
+#navbar {
+  display: grid;
+  min-height: 4rem;
+  grid-auto-flow: column;
+  background-color: #fcfcfc;
+  padding: 0.6rem;
+  gap: 0.25rem;
+}
+
+#links {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#logo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-transform: uppercase;
+}
+
+#links {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 3rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+#links button {
+  text-transform: uppercase;
+  font-weight: 600;
+  background: none;
+  border: none;
+  padding: 0;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+}
+
+#links button:focus {
+  outline: none;
+}
