@@ -5,7 +5,7 @@ function NavbarMain() {
   return (
     <>
       <div id="navbar">
-        <div id="logo">placeholder logo here</div>
+        <div id="logo">placeholder for logo</div>
         <div id="links">
           <button>how it works</button>
           <button>buy</button>

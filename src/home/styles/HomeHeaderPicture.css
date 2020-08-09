@@ -1,0 +1,13 @@
+.photoGrid {
+  display: grid;
+  grid-auto-rows: 300px;
+  grid-template-columns: 1fr;
+}
+.photo {
+  background-image: url("../assets/yvette-de-wit-NYrVisodQ2M-unsplash.jpg");
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 300px;
+}

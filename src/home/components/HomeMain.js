@@ -1,11 +1,13 @@
 import React from "react";
+import HomeHeaderPicture from "./HomeHeaderPicture";
 
-function HomeMain() {
+const HomeMain = () => {
   return (
     <>
+      <HomeHeaderPicture />
       <div>Other part of the application</div>
     </>
   );
-}
+};
 
 export default HomeMain;

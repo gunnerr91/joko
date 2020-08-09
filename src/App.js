@@ -3,13 +3,13 @@ import "./App.css";
 import NavbarMain from "./navbar/components/NavbarMain";
 import HomeMain from "./home/components/HomeMain";
 
-function App() {
+const App = () => {
   return (
     <>
       <NavbarMain />
       <HomeMain />
     </>
   );
-}
+};
 
 export default App;
