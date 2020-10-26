@@ -7,9 +7,9 @@ const EventCard = ({ currentSearchText }) => {
   if (currentSearchText) {
     filteredEvents = events.filter(
       (event) =>
-        event.artist.toLowerCase().includes(currentSearchText) ||
-        event.title.toLowerCase().includes(currentSearchText) ||
-        event.location.toLowerCase().includes(currentSearchText)
+        event.artist.toLowerCase().includes(currentSearchText.toLowerCase()) ||
+        event.title.toLowerCase().includes(currentSearchText.toLowerCase()) ||
+        event.location.toLowerCase().includes(currentSearchText.toLowerCase())
     );
   }
 
