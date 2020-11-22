@@ -5,9 +5,9 @@ on:
     branches: [master]
 
 env:
-  AZURE_WEBAPP_NAME: jokospa-dev-app # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: "./build" # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: "12.x" # set this to the node version to use
+  AZURE_WEBAPP_NAME: jokospa-dev-app
+  AZURE_WEBAPP_PACKAGE_PATH: "./build"
+  NODE_VERSION: "12.x"
 
 jobs:
   build-and-deploy:
